@@ -31,6 +31,12 @@ The second heapsort is to do sorting on a given array.
 A binary heap is typically represented as an array.
 
 
+Mergesort: The essence is recursively to do Mergesort until the index of begin and end is equal.
+Divide the arry into halves. The left part implement merge sort and the left part implement merge sort independently.
+Make the left half part and right half part are sorted.
+Then using Merge() to merge two parts.
+
+
 
 
  
