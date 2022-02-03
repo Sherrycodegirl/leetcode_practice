@@ -18,5 +18,19 @@ The situation of deleteing a node in a BST has three possibilities:
 of this node. Then we change the key of this node to the found minimum key and delete the minimum node on the right
 subtree.
 
+Definition of Binary Heap:
+A complete binary tree in which every level such that a parent node is greater or smaller than the values in
+its two children nodes.
+Left node index is 2*i + 1, right node index is 2*i+2. i is from 0.
+Heapify is the process that make the parent node is smaller or greater than children nodes (Min Heap or Max Heap).
+The heapsort is to make the root is the mimimum or maximum after heapifying each time. replace the root with the last entry
+in the array and heapifying again with the shrink array. 
+
+Here I present two forms of heapsort, the first one min_heap.cpp is to construct a heap and realize other functions (like change a key in a node, delete a key at index i, extract root value) in a heap.
+The second heapsort is to do sorting on a given array.
+A binary heap is typically represented as an array.
+
+
+
 
  
